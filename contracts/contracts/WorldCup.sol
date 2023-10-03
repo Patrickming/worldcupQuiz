@@ -17,6 +17,8 @@ contract WorldCup {
     mapping (address => uint256) public winnerVaults;
     //因为是根据总数计算份额来分奖金 所以在算完一期所有人该分走的应减去这部分 防止玩家没有及时取走影响下一期开奖的奖金计算
     uint256 public lockedAmts;
+    //增加一个持续时间限制play可用时间
+    uint256 public immutable deadline;
 
 
     struct Player {
@@ -42,9 +44,10 @@ contract WorldCup {
     event Finialize(uint8 _currRound, uint256 _country);
     event ClaimReward(address _claimer, uint256 _amt);
 
-    constructor () {
-        //交易的发起人是msg.sender
+    constructor (uint256 _deadline) {
         admin = msg.sender;
+        require(_deadline > block.timestamp, "WorldCupLottery: invalid deadline!");
+        deadline = _deadline;
     }
     /*转移管理员*/
     function transferMgr(address _newMgr) public onlyAdmin{
@@ -57,8 +60,12 @@ contract WorldCup {
 
     /*玩家下注*/
     function play(Country _selected) public payable {
+        //检查下注时间是否已过
+        require(block.timestamp < deadline, "watch the time,it's all over!");
+       
         // 金额校验 一次下注是1 gwei
         require(msg.value == 1 gwei, "invalid funds provided!");
+
         // 更新每期国家的下注情况（添加下注人（一个人可重复下注一个国家））
         countryToPlayers[currRound][_selected].push(msg.sender);
 
