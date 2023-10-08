@@ -13,4 +13,7 @@
 
 6、[05_WorldCup全栈开发（upgrade） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/VprldZ0NTopLBQxTKoYcknVTnge)
 
+7、[05_WorldCup全栈开发（链下签名） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/FR6zd24n1oD3emxS835c2Jl2nYm)
+
+
 
