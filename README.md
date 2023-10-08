@@ -11,9 +11,9 @@
 
 5、[05_WorldCup全栈开发（airdrop） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/VDMxdtEgUo5jSyxgF7WcLUcTnab)
 
-6、[05_WorldCup全栈开发（upgrade） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/VprldZ0NTopLBQxTKoYcknVTnge)
+6、[06_WorldCup全栈开发（upgrade） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/VprldZ0NTopLBQxTKoYcknVTnge)
 
-7、[05_WorldCup全栈开发（链下签名） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/FR6zd24n1oD3emxS835c2Jl2nYm)
+7、[07_WorldCup全栈开发（链下签名） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/FR6zd24n1oD3emxS835c2Jl2nYm)
 
 
 
