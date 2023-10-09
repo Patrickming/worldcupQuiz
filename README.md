@@ -1,5 +1,6 @@
 # worldcupQuiz
-以太坊世界杯竞猜项目 部署在goerli网
+以太坊世界杯竞猜项目 
+跟随duck老师项目视频全程 本人编写的代码和笔记
 ## 项目笔记
 1、[⁡⁡⁢⁣⁣⁡⁣⁤⁢⁤⁡⁢⁡‌01_WorldCup全栈开发（solidity） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/OjqvdOXKko5ZKhxlNaUcBLMJn8g)
 
@@ -15,5 +16,13 @@
 
 7、[07_WorldCup全栈开发（链下签名） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/FR6zd24n1oD3emxS835c2Jl2nYm)
 
+8、[08_WorldCup全栈开发（MultisigWallet） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/EHGUdvzJbo4qGZxeJPfcppuRnnd)
+
+
+> 本课程来源于duck老师的开源项目：https://github.com/dukedaily/solidity-expert 
+
+duke老师：加V：Adugii，公众号：阿杜在新加坡
+
+> 关于duck老师：国内第一批区块链布道者；2017年开始专注于区块链教育(btc, eth, fabric)，目前base新加坡，专注海外defi,dex,元宇宙等业务方向。
 
 
