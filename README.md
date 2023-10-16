@@ -1,6 +1,6 @@
 # worldcupQuiz
 以太坊世界杯竞猜项目 
-跟随duck老师项目视频全程 本人编写的代码和笔记
+对照duck老师项目视频 编写的代码和笔记
 ## 项目笔记
 1、[⁡⁡⁢⁣⁣⁡⁣⁤⁢⁤⁡⁢⁡‌01_WorldCup全栈开发（solidity） - 飞书云文档 (feishu.cn)](https://asow5wzvld.feishu.cn/docx/OjqvdOXKko5ZKhxlNaUcBLMJn8g)
 
